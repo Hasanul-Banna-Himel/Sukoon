@@ -1,0 +1,33 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8ff;
+  text-align: center;
+  padding: 20px;
+}
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+#reminder-box {
+  margin: 20px 0;
+}
+.translation {
+  font-style: italic;
+  color: #555;
+}
+.ref {
+  color: #888;
+  font-size: 0.9em;
+}
+button {
+  background: #2e8b57;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
