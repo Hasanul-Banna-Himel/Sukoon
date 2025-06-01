@@ -1,6 +1,6 @@
-# 🌙 Sukoon – Islamic Daily Reminder App (PWA)
+# 🌙 Sukoon – Islamic Daily Reminder App
 
-**Sukoon** is a simple, elegant Progressive Web App (PWA) that delivers daily Islamic content like Quranic verses, Hadiths, and Duas. It works **offline**, is **mobile-friendly**, and can be installed on any device — offering spiritual peace, or "Sukoon", every day.
+**Sukoon** is a simple, elegant Web App that delivers daily Islamic content like Quranic verses, Hadiths, and Duas. 
 
 ---
 
@@ -12,14 +12,13 @@
 - 🔁 **Random Reminder Generator**
 - 💡 **Minimalist and Peaceful UI**
 
----
 
 
 ## 🛠️ Tech Stack
 
 - **Frontend**: HTML, CSS, JavaScript
 - **Data Source**: Local JSON file
-
+- **PWA Support**: `manifest.json`, `service-worker.js`
 
 ---
 
@@ -32,8 +31,9 @@ sukoon/
 ├── index.html              # Main HTML page
 ├── style.css               # Styling
 ├── script.js               # App logic
-└── reminders.json          # Data for verses, hadiths, duas
+└── reminders.json          # Data
 ````
+
 ---
 
 ## 🚀 How to Run Locally
@@ -50,6 +50,8 @@ sukoon/
 
 ---
 
+
+
 ## ✨ Example Reminder Format (`reminders.json`)
 
 ```json
@@ -62,19 +64,10 @@ sukoon/
   }
 ]
 ```
-
 ---
-
-
 ## 📜 License
 
 This project is open-source under the [MIT License](LICENSE).
-
----
-
-## 🤝 Contributing
-
-Pull requests are welcome! For major changes, please open an issue first to discuss.
 
 ---
 
@@ -87,4 +80,4 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 ## 📧 Contact
 
-Built with ❤️ by Hasanul Bannna Himel
+Built with ❤️ by Hasanul Banna Himel
