@@ -1,11 +1,11 @@
-/* Reset default margins and paddings */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body styling */
+
 body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #f0f8ff;
@@ -13,7 +13,7 @@ body {
   padding: 20px;
 }
 
-/* Container styling */
+
 .container {
   max-width: 500px;
   margin: auto;
@@ -23,7 +23,7 @@ body {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Reminder box */
+
 #reminder-box {
   margin: 20px 0;
   padding: 10px;
@@ -51,7 +51,7 @@ body {
   font-size: 0.9rem;
 }
 
-/* Button styling */
+
 button {
   background: #2e8b57;
   color: white;
